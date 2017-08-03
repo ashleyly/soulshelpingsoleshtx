@@ -2974,12 +2974,11 @@
 	margin-top: 3vh;
 }
 @media only screen 
-and (min-device-width : 320px) 
 and (max-device-width : 568px) {
     /* Styles */
 
 
-#gallery{
+.picturegallery{
   width: 100%;
   position: relative;
    margin-bottom: 50px;
@@ -2999,6 +2998,10 @@ width: 100%;
    margin-top: 100px;
 
 }
+.count{
+	height: 40vh;
+	width: 100vw;
+}
 }
 
 
@@ -3009,8 +3012,10 @@ width: 100%;
 and (min-width : 1224px) {
     /* Styles */
 
-
-#gallery{
+.wrapper{
+	margin-left: 5vw;
+}
+.picturegallery{
   width: 23%;
   float: left;
   margin-right: 1%;
@@ -3018,13 +3023,13 @@ and (min-width : 1224px) {
 }
 #headshots{
 	float: left;
-	width: 23%;
+	width: 15%;
 	
 	margin: 20px 20px 20px 20px;
 }
 #headshots2{
 	float: right;
-	width: 23%;
+	width: 15%;
 	
 	margin: 10px 10px 10px 10px;
 }
@@ -3037,7 +3042,11 @@ iframe{
 and (min-device-width : 569px) 
 and (max-device-width : 1224px) {
     /* Styles */
-    #gallery{
+    .wrapper{
+	margin-left: 5vw;
+}
+
+    .picturegallery{
   width: 23%;
   float: left;
   margin-right: 1%;
@@ -3045,13 +3054,13 @@ and (max-device-width : 1224px) {
 }
 #headshots{
 	float: left;
-	width: 23%;
+	width: 15%;
 	
 	margin: 10px 10px 10px 10px;
 }
 #headshots2{
 	float: right;
-	width: 23%;
+	width: 15%;
 	
 	margin: 10px 10px 10px 10px;
 }
@@ -3064,4 +3073,6 @@ and (max-device-width : 1224px) {
  
 /* 16x9 Aspect Ratio */
 
- 
+ .landscape{
+	margin-top: 7vh;
+}
