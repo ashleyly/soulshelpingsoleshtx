@@ -3001,7 +3001,9 @@ width: 100%;
 #count{
 	width: 100vw;
 	height: 40vh;
+
 	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 }
 
