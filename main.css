@@ -3005,7 +3005,7 @@ width: 100%;
 }
 .showtext{
 	display: block;
-	font-size: 36;
+	font-size: 100%;
 	font-weight: bold;
 }
 }
