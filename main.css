@@ -3000,8 +3000,10 @@ width: 100%;
 }
 #count{
 	width: 100vw;
-	height: 80vh;
+	height: 40vh;
 
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 }
 
@@ -3036,7 +3038,7 @@ and (min-width : 1224px) {
 	margin: 10px 10px 10px 10px;
 }
 #count{
-	height: 500px;
+	height: 400px;
 	width: 700px;
 }
 }
@@ -3068,7 +3070,7 @@ and (max-device-width : 1224px) {
 	margin: 10px 10px 10px 10px;
 }
 #count{
-	height: 500px;
+	height: 400px;
 	width: 700px;
 }
 }
