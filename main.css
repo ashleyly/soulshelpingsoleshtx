@@ -2998,7 +2998,7 @@ width: 100%;
    margin-top: 100px;
 
 }
-.count{
+#count{
 	width: 100vw;
 	height: 40vh;
 }
@@ -3034,7 +3034,7 @@ and (min-width : 1224px) {
 	
 	margin: 10px 10px 10px 10px;
 }
-iframe{
+#count{
 	height: 400px;
 	width: 700px;
 }
@@ -3066,7 +3066,7 @@ and (max-device-width : 1224px) {
 	
 	margin: 10px 10px 10px 10px;
 }
-.count{
+#count{
 	height: 400px;
 	width: 700px;
 }
