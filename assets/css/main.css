@@ -3012,8 +3012,9 @@ width: 100%;
 and (min-width : 1224px) {
     /* Styles */
 
-.wrapper{
+.wrappergallery{
 	margin-left: 5vw;
+	background-color: #FFFFFF;
 }
 .picturegallery{
   width: 23%;
@@ -3042,8 +3043,9 @@ iframe{
 and (min-device-width : 569px) 
 and (max-device-width : 1224px) {
     /* Styles */
-    .wrapper{
+    .wrappergallery{
 	margin-left: 5vw;
+	background-color: #FFFFFF;
 }
 
     .picturegallery{
