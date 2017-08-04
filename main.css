@@ -3002,8 +3002,6 @@ width: 100%;
 	width: 100vw;
 	height: 40vh;
 
-	overflow-x: scroll;
-	-webkit-overflow-scrolling: touch;
 }
 }
 
