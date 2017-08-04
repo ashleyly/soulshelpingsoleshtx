@@ -2998,9 +2998,10 @@ width: 100%;
    margin-top: 100px;
 
 }
-.count{
-	height: 40vh;
+#count{
 	width: 100vw;
+	height: 40vh;
+
 }
 }
 
@@ -3034,9 +3035,9 @@ and (min-width : 1224px) {
 	
 	margin: 10px 10px 10px 10px;
 }
-iframe{
-	height: 400px;
-	width: 700px;
+#count{
+	height: 40vh;
+	width: 100vw;
 }
 }
 @media only screen 
@@ -3066,9 +3067,9 @@ and (max-device-width : 1224px) {
 	
 	margin: 10px 10px 10px 10px;
 }
-.count{
-	height: 400px;
-	width: 700px;
+#count{
+	height: 40vh;
+	width: 100vw;
 }
 }
 
