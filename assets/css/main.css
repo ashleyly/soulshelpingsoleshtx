@@ -2973,7 +2973,7 @@
 .bannerbutton {
 	margin-top: 3vh;
 }
-@media only screen 
+@media only screen
 and (max-device-width : 577px) {
     /* Styles */
 
@@ -3014,7 +3014,7 @@ width: 100%;
 
 /* Structural elements */
 
-@media only screen 
+@media only screen
 and (min-width : 1224px) {
     /* Styles */
 
@@ -3031,13 +3031,13 @@ and (min-width : 1224px) {
 #headshots{
 	float: left;
 	width: 15%;
-	
+
 	margin: 20px 20px 20px 20px;
 }
 #headshots2{
 	float: right;
 	width: 15%;
-	
+
 	margin: 10px 10px 10px 10px;
 }
 #count{
@@ -3048,8 +3048,8 @@ and (min-width : 1224px) {
 	display: none;
 }
 }
-@media only screen 
-and (min-device-width : 578px) 
+@media only screen
+and (min-device-width : 578px)
 and (max-device-width : 1224px) {
     /* Styles */
     .wrappergallery{
@@ -3066,13 +3066,13 @@ and (max-device-width : 1224px) {
 #headshots{
 	float: left;
 	width: 15%;
-	
+
 	margin: 10px 10px 10px 10px;
 }
 #headshots2{
 	float: right;
 	width: 15%;
-	
+
 	margin: 10px 10px 10px 10px;
 }
 #count{
@@ -3083,8 +3083,10 @@ and (max-device-width : 1224px) {
 	display: none;
 }
 }
+.update{
+	color: "black";
+}
 
- 
 /* 16x9 Aspect Ratio */
 
  .landscape{
