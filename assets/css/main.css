@@ -3056,7 +3056,12 @@ and (max-device-width : 1224px) {
 	margin-left: 5vw;
 	background-color: #FFFFFF;
 }
-
+.otherpicturegallery{
+	width: 30%;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: .5em;
+}
     .picturegallery{
   width: 23%;
   float: left;
@@ -3091,4 +3096,25 @@ and (max-device-width : 1224px) {
 
  .landscape{
 	margin-top: 7vh;
+}
+#blog{
+
+}
+.entry-title{
+	font-weight: bold;
+}
+.articletitle{
+	font-weight: bold;
+	color: black;
+}
+.pagetitles{
+	font-weight: bold;
+	color: black;
+}
+.wrapper2 {
+	position: relative;
+	float: left;
+	background: white;
+	overflow-x: hidden;
+	padding: 1.7em 0 1.7em 0;
 }
