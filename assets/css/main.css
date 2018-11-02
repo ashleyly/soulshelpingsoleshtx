@@ -3118,3 +3118,17 @@ and (max-device-width : 1224px) {
 	overflow-x: hidden;
 	padding: 1.7em 0 1.7em 0;
 }
+#headshotsimages{
+width: 100%;
+  position: relative;
+   margin-bottom: 100px;
+   margin-top: 100px;
+	 left: 0vw;
+}
+#rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
